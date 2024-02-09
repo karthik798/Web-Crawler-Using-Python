@@ -16,7 +16,7 @@ scrapy shell https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/inde
 ```
 ### Test Shell Commands
 ```
-response.get("h3")
+response.css("h3")
 response.css("h3").get()
 response.css("h3").get()
 response.css("a::text").get()
